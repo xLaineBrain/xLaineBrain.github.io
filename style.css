@@ -10,5 +10,17 @@ body {
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0, 0.1)
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+img{
+  width: 150px;
+  height: auto; 
+  border-radius: 50%;
+  position: absolute; 
+  top: 100px;
+  right: 100px; 
+  transform: rotate(+5deg);
+  transform-origin: top right;
+  z-index: 1;
 }
