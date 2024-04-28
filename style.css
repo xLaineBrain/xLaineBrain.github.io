@@ -26,5 +26,5 @@ img{
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
   border: 3px solid #ffffff;
   opacity: 0.8; 
-  filter: grayscale(50%); /* 50% grayscale */
+  filter: grayscale(50%);
 }
