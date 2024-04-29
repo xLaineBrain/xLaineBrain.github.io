@@ -5,6 +5,11 @@ body {
   margin: 10% 20%;
 }
 
+.name-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .exp-header {
   text-align: center;
   text-transform: uppercase;
@@ -27,4 +32,31 @@ img{
   border: 3px solid #ffffff;
   opacity: 0.8; 
   filter: grayscale(50%);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info h1 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  border-bottom: 1px solid #ddd; 
+  padding-bottom: 3px; 
+}
+
+.phone, .email, .linkedin {
+  text-decoration: none; 
+  color: #007bff; 
+}
+
+.phone:hover, .email:hover, .linkedin:hover {
+  text-decoration: underline;
 }
