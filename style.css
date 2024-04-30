@@ -49,7 +49,7 @@ img{
   justify-content: space-between; 
   width: 100%;
   border-bottom: 1px solid #ddd; 
-  padding-bottom: 3px; 
+  padding-bottom: 5px; 
 }
 
 .phone, .email, .linkedin {
@@ -59,4 +59,38 @@ img{
 
 .phone:hover, .email:hover, .linkedin:hover {
   text-decoration: underline;
+}
+
+.skills-container {
+  text-align: center;
+  padding: 10px 0; 
+}
+
+.skills-list {
+  list-style: none; 
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+.edu-pro-dev-container {
+  text-align: center; 
+}
+
+
+/* CSS Animation Keyframes */
+@keyframes grow {
+  0% {
+    transform: scale(0); /* Start with no scale (hidden) */
+  }
+  100% {
+    transform: scale(1); /* End with full scale (normal size) */
+  }
+}
+
+/* Apply animation to the image */
+.grow-animation {
+  animation: grow 8s ease-out forwards infinite; /* Apply the grow animation for 2 seconds with ease-out timing function */
 }
