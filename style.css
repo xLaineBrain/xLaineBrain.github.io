@@ -79,18 +79,16 @@ img{
   text-align: center; 
 }
 
-
-/* CSS Animation Keyframes */
 @keyframes grow {
   0% {
-    transform: scale(0); /* Start with no scale (hidden) */
+    transform: scale(0); 
   }
   100% {
-    transform: scale(1); /* End with full scale (normal size) */
+    transform: scale(1); 
   }
 }
 
 /* Apply animation to the image */
 .grow-animation {
-  animation: grow 8s ease-out forwards infinite; /* Apply the grow animation for 2 seconds with ease-out timing function */
+  animation: grow 8s ease-out forwards infinite; 
 }
