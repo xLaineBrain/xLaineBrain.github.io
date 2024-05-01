@@ -13,8 +13,6 @@ body {
   padding: 0; 
 }
 
-
-
 .name-header {
   text-align: center;
   margin-bottom: 20px;
@@ -100,6 +98,14 @@ img{
 
 .grow-animation {
   animation: grow 8s ease-out forwards infinite;
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) {
 }
 
 {
