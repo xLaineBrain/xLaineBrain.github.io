@@ -87,19 +87,6 @@ img{
   text-align: center; 
 }
 
-@keyframes grow {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1); 
-  }
-}
-
-.grow-animation {
-  animation: grow 8s ease-out forwards infinite;
-}
-
 @media (max-width: 767px) {
 }
 
